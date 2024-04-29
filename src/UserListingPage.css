@@ -1,0 +1,72 @@
+.UserList_PageWrapper__11jYV {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8% 4%;
+  margin-top: 100px;
+}
+.search-container {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+input[type="text"] {
+  width: calc(100% - 100px);
+  padding: 12px 24px;
+  font-size: 15px;
+  border: 0;
+  border-bottom: 2px solid #8c8c8c;
+  margin: 0 0 0 0;
+  outline: none;
+}
+.reset-button {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 14px 36px;
+  margin-left: 36px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: #20b883;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+}
+
+thead th {
+  background-color: #f6f7fb;
+  padding: 12px 22px;
+  text-align: center;
+  font-weight: bold;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody td:first-child {
+  width: 10%;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+tbody tr {
+  border-bottom: 4px solid #f6f7fb;
+}
